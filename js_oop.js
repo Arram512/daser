@@ -11,7 +11,7 @@
 // }
 
 
-/*function ParentFunction(bookName, bookPages) {
+function ParentFunction(bookName, bookPages) {
 
 	this.name = bookName
 	this.pages = bookPages
@@ -25,7 +25,7 @@ const book1 = new ParentFunction("Война и мир", 1024)
 const book2 = Object.create(ParentFunction)
 book2.name_1 = "some_name"
 book2.pages = 234
-console.log(book1.functionName())*/
+console.log(book1.functionName())
 
 class Parent {
 
